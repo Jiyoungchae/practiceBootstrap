@@ -9,14 +9,31 @@
   <title>Jiyoung's Website</title>
 </head>
 <body>
-  <style type="text/css" media="screen">
-    .jumbotron {
-      background-image: url('images/milkyway.jpg');
-      background-size:cover;
-      text-shadow: black 0.2em 0.2 em 0.2 em;
-      color:white;
-    }
-  </style>
+<style media="screen">
+  blockquote{
+    background: :#f9f9f9;
+    border-left:10px solid #cccccc;
+    margin:1.5em 10px
+    padding:0.5em 10px;
+    quotes:"\201C""\201D""\2018""\2019";
+  }
+  blockquote:before{
+    color:#cccccc;
+    content:open-quote;
+    font-size:3em;
+    line-height:0.1em;
+    margin-left:0.25em;
+    vertical-align:-0.4em;
+  }
+  blockquote:after{
+    color:#cccccc;
+    content:close-quote;
+    font-size:3em;
+    line-height:0.1em;
+    margin-left:0.25em;
+    vertical-align:-0.4em;
+  }
+</style>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -71,74 +88,71 @@
     </div>
   </div>
 </nav>
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="text-center">Jiyoung Chae</h1>
-        <p class="text-center">web developer</p>
-        <p class="text-center">
-          <a href="#" class="btn btn-primary btn-lg" roll="button">click me</a>
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>About me</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" data-target="#modal"
-            data-toggle="modal">details</a> </p>
-        </div>
-        <div class="col-md-4">
-          <h4>works</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" >details</a> </p>
-        </div>
-        <div class="col-md-4">
-          <h4>Skills</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" >details</a> </p>
-        </div>
-      </div>
-      <hr>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">
-            <span class="glyphicon glyphicon-pencil"></span>
-            &nbsp; &nbsp; Works
-          </h3>
-        </div>
-        <div class="panel-body">
-          <div class="media">
-            <div class="media-left">
-               <a href="#">
-                 <img class="media-object" src="images/angular.png" alt="">
-               </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">ITSP
-                <a href="#"></a>&nbsp;
-                <span class="badge">new</span>
-              </h4>
-              I built this website in 2013 from the beginning to the end.
+            <span class="glyphicon glyphicon-tags"></span>
+            &nbsp;&nbsp; Jiyoung Chae
+            </h3>
+          </div>
+          <div class="panel-body">
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object"
+                  src="images/slide_01.png" alt="dev image">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Jiyoung</h4><br>
+                THANKS
+              </div>
             </div>
           </div>
-          <hr>
-          <div class="media">
-            <div class="media-left">
-               <a href="#">
-                 <img class="media-object" src="images/angular.png" alt="">
-               </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">ITSP
-                <a href="#"></a>&nbsp;
-                <span class="badge">new</span>
-              </h4>
-              I built this website in 2013 from the beginning to the end.
-            </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Instructor name</th>
+                <th>Class Number</th>
+                <th>Class Title</th>
+                <th>Class Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jiyoung Chae</td>
+                <td></td>
+                <td><a href="lecture.html?lectoreName=c">C# language basic programming</a></td>
+                <td>20-12-2018</td>
+              </tr>
+              <tr>
+                <td>Jiyoung Chae</td>
+                <td></td>
+                <td><a href="lecture.html?lectoreName=c">Java language basic programming</a></td>
+                <td>20-12-2018</td>
+              </tr>
+              <tr>
+                <td>Jiyoung Chae</td>
+                <td></td>
+                <td><a href="lecture.html?lectoreName=c">Javascript language basic programming</a></td>
+                <td>20-12-2018</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="panel-footer">
+            <blockquote cite="http://">
+              Do And Foget!!
+            </blockquote>
+
           </div>
-          <hr>
         </div>
       </div>
     </div>
+  </div>
+</div>
     <footer style="background-color:#000000; color:#ffffff">
       <div class="row">
         <div class="col-sm-2" style="text-align:center">

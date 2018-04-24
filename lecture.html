@@ -9,14 +9,7 @@
   <title>Jiyoung's Website</title>
 </head>
 <body>
-  <style type="text/css" media="screen">
-    .jumbotron {
-      background-image: url('images/milkyway.jpg');
-      background-size:cover;
-      text-shadow: black 0.2em 0.2 em 0.2 em;
-      color:white;
-    }
-  </style>
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -71,74 +64,47 @@
     </div>
   </div>
 </nav>
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="text-center">Jiyoung Chae</h1>
-        <p class="text-center">web developer</p>
-        <p class="text-center">
-          <a href="#" class="btn btn-primary btn-lg" roll="button">click me</a>
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>About me</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" data-target="#modal"
-            data-toggle="modal">details</a> </p>
-        </div>
-        <div class="col-md-4">
-          <h4>works</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" >details</a> </p>
-        </div>
-        <div class="col-md-4">
-          <h4>Skills</h4>
-          <p>I am web designer and publisher</p>
-          <p> <a href="#" class="btn btn-default" >details</a> </p>
-        </div>
-      </div>
-      <hr>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">
-            <span class="glyphicon glyphicon-pencil"></span>
-            &nbsp; &nbsp; Works
-          </h3>
-        </div>
-        <div class="panel-body">
-          <div class="media">
-            <div class="media-left">
-               <a href="#">
-                 <img class="media-object" src="images/angular.png" alt="">
-               </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">ITSP
-                <a href="#"></a>&nbsp;
-                <span class="badge">new</span>
-              </h4>
-              I built this website in 2013 from the beginning to the end.
-            </div>
-          </div>
-          <hr>
-          <div class="media">
-            <div class="media-left">
-               <a href="#">
-                 <img class="media-object" src="images/angular.png" alt="">
-               </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">ITSP
-                <a href="#"></a>&nbsp;
-                <span class="badge">new</span>
-              </h4>
-              I built this website in 2013 from the beginning to the end.
-            </div>
-          </div>
-          <hr>
-        </div>
-      </div>
+<div class="container">
+  <div class="row">
+    <ul class="list-group">
+      <a href="#" class="list-group-item active">Lesson 1 Hello Word</a>
+      <a href="#" class="list-group-item">Lesson 2 Variable</a>
+      <a href="#" class="list-group-item">Lesson 3 Class</a>
+      <a href="#" class="list-group-item">Lesson 4 Property</a>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item"
+      src="https://www.youtube.com/embed/RYF4Gsrxur4"></iframe>
     </div>
+    <br>
+    <br>
+    <hr>
+    <div class="row">
+      <p>this is the first lecture what you order.</p>
+      <pre class="pre-scrollable">
+        #include &lt;stdio.h &gt;
+          int main(void){
+            print("Hello World!");
+          }
+      </pre>
+    </div>
+  </div>
+  <div class="container">
+    <hr>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label>comments</label>
+        <textarea class="form-control" rows="5"
+          id="commentContent" name="commentContent"></textarea>
+          <br>
+          <button type="submit" class="btn pull-right">Register</button>
+      </div>
+    </form>
+    <br>
+  </div>
+</div>
     <footer style="background-color:#000000; color:#ffffff">
       <div class="row">
         <div class="col-sm-2" style="text-align:center">
